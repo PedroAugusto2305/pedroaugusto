@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #08070b;
+  font-family: "Poppins", sans-serif;
+  /* max-width: 90rem;
+  margin: 0 auto; */
+}
+
+a,
+ul,
+ol {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* main {
+  border: yellow 1px solid;
+} */
+
+.c-container {
+    margin: 0px auto;
+    max-width: 760px;
+    padding: 0px 20px;
+}
+
+/* Personaliza toda a scrollbar (barra de rolagem) */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da scrollbar */
+}
+
+/* Personaliza o track (caminho/trilha) da scrollbar */
+::-webkit-scrollbar-track {
+  background: #08070b; /* Cor de fundo da trilha da scrollbar */
+}
+
+/* Personaliza o thumb (parte móvel) da scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #8f9ba8; /* Cor do thumb */
+}
+
+/* Adiciona um efeito de hover no thumb para mudar levemente a cor quando o mouse está em cima */
+::-webkit-scrollbar-thumb:hover {
+  background: #7a8391;
+}

@@ -1,0 +1,43 @@
+/* #about-section {
+border: blue 1px solid;
+} */
+
+#about-section img {
+    border-radius: 15px;
+    height: 21rem;
+    width: 21rem;
+}
+
+.c-about__title {
+  background-image: linear-gradient(to right, cyan, yellow);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: cyan;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.c-about__content {
+  /* border: red 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.c-about__text {
+  text-align: left;
+  width: 25rem;
+  color: #8f9ba8;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.c-about__text>p {
+ margin-bottom: 1rem;
+}
+
+.c-about__text>p>strong {
+  color: #F2F2F2;
+}
+
