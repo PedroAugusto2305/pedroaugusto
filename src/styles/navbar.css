@@ -12,6 +12,9 @@ header {
 header>h2 {
   margin-left: 1rem;
 }
+header>a {
+  color: white;
+}
 header>i {
   margin-right: 1rem;
 }

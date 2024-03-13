@@ -29,6 +29,16 @@ ol {
     padding: 0px 20px;
 }
 
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* max-width: 600px; */
+  /* height: 100vh; */
+}
+
 /* Personaliza toda a scrollbar (barra de rolagem) */
 ::-webkit-scrollbar {
   width: 10px; /* Largura da scrollbar */
