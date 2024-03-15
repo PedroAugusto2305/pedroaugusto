@@ -1,20 +1,20 @@
 .c-footer {
-    text-align: center;
-    margin-top: 6rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
 }
 
-.c-footer>i {
-    font-size: 1.125rem;
-    color: #8f9ba8;
-    cursor: pointer;
-    margin: 1rem;
-    transition: .9s;
+.c-footer > a > i {
+  font-size: 1.125rem;
+  color: #8f9ba8;
+  cursor: pointer;
+  margin: 1rem;
+  transition: 0.9s;
 }
 
-.c-footer>i:hover {
-    cursor: pointer;
-    margin: 1rem;
-    color: white;
+.c-footer > a > i:hover {
+  cursor: pointer;
+  margin: 1rem;
+  color: white;
 }
 
