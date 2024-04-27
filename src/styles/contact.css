@@ -1,0 +1,53 @@
+.c-about__title {
+    margin-bottom: 2.5rem;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    width: 100%;
+}
+
+.form-section > h2 {
+    margin-bottom: 1rem;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.form-item > label {
+    color: #8f9ba8;
+}
+
+.form-item > input {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #08070b;
+    border: #8f9ba8 1px solid;
+    padding: 1rem;
+    color: white;
+}
+
+.form-item > textarea {
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    background-color: #08070b;
+    border: #8f9ba8 1px solid;
+    padding: 1rem;
+}
+
+.form-item > button {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #08070b;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.form-item > input:focus {
+    color: white;
+}
